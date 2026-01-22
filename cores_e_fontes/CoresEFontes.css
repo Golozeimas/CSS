@@ -1,0 +1,12 @@
+body{
+    /* isso aqui pode ser usado mas não é boa prática
+    o ideal é usar o color em hexadecimal
+    */
+    /*color: azure;*/
+    color: #FFEFD5;
+    background-color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    /* tenta o Roboto, caso não der, tenta o sans-serif e sucessivamente
+    boa prática
+    */
+}
