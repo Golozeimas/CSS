@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.con{
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/*
+    1 - por padrão o position é static, então se eu colocar nada muda
+
+    2 - position: relative; já podemos manipular o (top, bottom, right e left)
+    sempre colocamos o que queremos afastar se for top, ele desce pra baixo 
+    e afasta encima, se for bottom, o contrário
+
+    OBS: relative, o espaço ocupado anteriormente continua lá e elementos não
+    podem sobrepor
+
+    3 - absolute
+*/

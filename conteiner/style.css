@@ -12,7 +12,7 @@ h1{
     margin: auto; /* margin: auto -> centraliza a div ao meio, por tentar
                     dividir o espaço externo igualmente*/
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px; /* principal resposánvel pelo espaçamento interno */
     border: solid 5px saddlebrown;
 }
 
