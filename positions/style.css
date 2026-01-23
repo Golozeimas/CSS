@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+     height: 180vh;
+}
 .con{
     padding: 20px;
     width: 200px;
@@ -38,4 +41,26 @@
     /absolute ou fixed, se não existir é em relação ao body
 
     não ocupa espaço, pode se sobrepor a outros elementos
- */
+
+*/
+
+.fixo{
+    color: #FFFFFF;
+    background-color: #000000;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    border: 20px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.stick{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    position:sticky;
+    top: 0; /* gruda no topo do site e o sticky gruda no topo da tela*/
+    text-decoration: none;
+}
