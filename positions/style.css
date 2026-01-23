@@ -6,12 +6,22 @@
     padding: 20px;
     width: 200px;
     height: 100px;
-    background-color: #000000;
-    color: #FFFFFF;
+    color: #000000;
     border-radius: 20px;
     position: relative;
     top: 100px;
     left: 100px;
+    border: #000000 solid 10px;
+    height: 600px;
+    width: 500px;
+}
+
+.absolute{
+    position: absolute;
+    border: #000000 solid 10px;
+    bottom: 0; /*mesmo comportamento, mas não passa do tamanho da relative
+                por estar dentro da div, e ser orientado a relativa
+    */
 }
 
 /*
@@ -24,5 +34,8 @@
     OBS: relative, o espaço ocupado anteriormente continua lá e elementos não
     podem sobrepor
 
-    3 - absolute
-*/
+    3 - absolute, é posicionado em relação ao elemento mais próximo com relative
+    /absolute ou fixed, se não existir é em relação ao body
+
+    não ocupa espaço, pode se sobrepor a outros elementos
+ */
