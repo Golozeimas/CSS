@@ -1,0 +1,24 @@
+*{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+/*o order troca as orderns de acordo com o número, então se tenho um elemento em 1 lugar
+e coloco order 2, ele passa assumir a segunda posição
+*/
+.a { order: 2; 
+    background-color: aqua;
+}
+.b { order: 1;
+    background-color: beige;
+}
+.c { order: 3; 
+    background-color: blueviolet;
+}

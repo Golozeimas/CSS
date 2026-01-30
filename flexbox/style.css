@@ -10,16 +10,20 @@
     margin: 20px;
     display: flex; /*pemite o display flex já ajusta as colunas e linhas*/
     /*flex-direction: row-reverse;*/ /* começa da direita para a esquerda*/
-    flex-direction: column; /* transforma em colunas indo do 1 até o 3*/
+    /*flex-direction: column;*/ /* transforma em colunas indo do 1 até o 3*/
+    flex-direction: row;
 }
 
 .area{
     width: 100px;
     height: 100px;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 .item-1{
     background-color: aqua;
+    flex-shrink: 2;
 }
 
 .item-2{
