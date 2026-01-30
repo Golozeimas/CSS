@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    margin: 10;
+    padding: 10;
+    flex-direction: row;
+    /*justify-content: center; -> alinha na linha horizontal ao centro*/
+    /*justify-content: flex-end; -> alinha na linha horizontal a direita no máximo*/
+    /*justify-content: flex-start; -> alinha na linha horizontal a esquerda no máximo*/
+    /*justify-content: space-between; -> alinha na linha horizontal a direita no meio e na esquerda
+    sem deixar padding sobrando
+    */
+    /*justify-content: space-around; -> alinha na linha horizontal a direita no meio e na esquerda
+    deixando padding
+    */
+
+    justify-content: space-between;
+}
+
+.a{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.b{
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+}
+
+.c{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
