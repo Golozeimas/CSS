@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    margin: 10;
+    padding: 10;
+    flex-direction: row;
+    background-color: aqua;
+    height: 1000px;
+    /*justify-content: center; -> alinha na linha horizontal ao centro*/
+    /*justify-content: flex-end; -> alinha na linha horizontal a direita no máximo*/
+    /*justify-content: flex-start; -> alinha na linha horizontal a esquerda no máximo*/
+    /*justify-content: space-between; -> alinha na linha horizontal a direita no meio e na esquerda
+    sem deixar padding sobrando
+    */
+    /*justify-content: space-around; -> alinha na linha horizontal a direita no meio e na esquerda
+    deixando padding
+    */
+    /* align-items: center;alinha os items verticalmente ao centro */
+    
+    /* align-items: flex-start; alinha os items verticalmente a cima */
+    /*align-items: flex-end; alinha os items verticalmente a baixo*/
+    justify-content: center; /* inversão no caso se flex-direction for coluna*/
+    align-items: center;
+}
+
+.a{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    align-self: self-start;/* vai alinha apenas esse no começo no caso do align aqui é encima*/
+}
+
+.b{
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    align-self: flex-end;
+}
+
+.c{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    align-self: flex-start;
+}
