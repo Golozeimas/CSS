@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif, serif;
+}
+
+/* Inicio do HEADER*/
+.nav{
+    height: 80px;
+    background-color: #4F4F4F;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none; /* Retira as bolinhas do elemento da lista */
+    margin-right: 28px;
+}
+
+.nav-list a{ /* Acesso os elementos que estão dentro da tag que está com a classe */
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px;
+}
+
+.nav-list a:hover{ /* propriedade que ao passar o mouse muda algo*/
+    color: white;
+}
+
+/* FIM DO HEADER */
+
+/* INICIO DO MAIN*/
+.main{
+    width: 100%; /* pega 100% do width até o final */
+    background-color: black;
+    height: calc(100vh - 80px); /* O 100vh pega a tela inteira, mas como já temos um height de 80px
+                                fazemos a subtração para que não fique sobrando scroll da página
+    */
+    background-image: url(imgs/programador.png); /* tem como fazer a imagem do background diretamente no CSS*/
+    display: flex;
+    align-items: center; /* ativei o flexbox no center para uso*/
+    padding-left: 10%;
+}
+
+.main h1{
+    font-size: 54px;
+    color: white;
+}
+
+.main p{
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+    color: #00BFFF;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.main button{
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none; /* Deixando um botão bonito com border:none, padding e box shadow*/
+    padding: 10px;
+    box-shadow: #4F4F4F;
+    font-weight: bold;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.call_to_action{
+        cursor:pointer;
+        background-color: #FFFFFF;
+        border: 0;
+        padding: 14px;
+        border-radius: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.9s; /* faz a transição em uma animação geralmente de expansão*/
+}
+
+.call_to_action:hover{
+    transform: scale(1.1); /* aumenta em 10% de tamanho, eu acho*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: silver;
+}
+
+/* FIM MAIN */
+
+/* INICIO SOBRE */
+
+.about{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 10%; /* esses padding definem um tamanho padrão para o meu sobre*/
+    padding-right: 10%;
+    padding-top: 80px; /* colocamos mais um espaçamento dentro do nosso box sizing de 80px, encima e embaixo*/
+    padding-left: 80px;
+    
+    display: flex; /* tá pegando tudo logo em linha vai ficar um do lado outro por padrão*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%; /* garante que a largura nunca seja maior que 50%*/
+    padding-right: 50px;
+}
+
+.about img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about div h2{
+    font-size: 38px;
+    margin-bottom: 14px;
+}
+
+/*FIM DO SOBRE*/
+

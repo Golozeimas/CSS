@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    font-family: sans-serif, serif;
+    margin-left: 50px;
+}
+
+main li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: 	#00BFFF;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+main img{
+    opacity: 50;
+}
+
+.imgs{
+    width: 200px;
+    margin-left: 35px;
+}
