@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Roboto", sans-serif, serif;
 }
@@ -175,12 +179,11 @@ body{
 
 .button{
     cursor: pointer;
-    padding: 20px;
+    padding: 20px 30px; /* com esse padding consigo ajustar a altura do meu botão (Y) e no número posterior a largura (X)*/
     border-radius: 8px;
     border: #4F4F4F solid 3px ;
     background-color: #000000;
     color: #FFFFFF;
-    width: 20%;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -189,3 +192,19 @@ body{
 }
 
 /* FIM DA ABA DE PROJETOS*/
+
+/* INICIO DO FOOTER */
+.footer{
+    width: 100%;
+    background-color: #000000;
+    padding: 50px 0;
+}
+
+.footer p{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* FIM DO FOOTER */
