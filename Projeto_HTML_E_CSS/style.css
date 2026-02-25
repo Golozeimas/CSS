@@ -21,7 +21,6 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
     position: sticky;
     top: 0;
     z-index: 9;
@@ -208,3 +207,46 @@ body{
 }
 
 /* FIM DO FOOTER */
+
+/* RESPONSIVIDADE*/
+
+@media (max-width:1000px){
+    /*MAIN*/
+    .main{
+        background-size: cover;
+    }
+    /*FIM DO MAIN*/
+    /*SOBRE*/
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .about div p{
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about div h2{
+        font-size: 52px;
+    }
+    
+    .about img{
+        width: 300px;
+    }
+    /*FIM DO SOBRE*/
+
+    /*INCIO DO PROJETOS*/
+    .projects img{
+        width: 28%;
+    }
+
+}
